@@ -9,5 +9,6 @@ spec:
     name: catalogue
   ports:
     - protocol: TCP
-      port: {{ .values.service.port }}
+    
+      port: {{ .Values.service.port }}
       targetPort: 8080
