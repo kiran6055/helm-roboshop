@@ -1,5 +1,5 @@
 deploymentset:
-  imageversion: v1
   replicaCount: 1
+  imageVersion: v1
 service:
   port: 80
